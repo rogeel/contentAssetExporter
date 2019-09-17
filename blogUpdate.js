@@ -1082,6 +1082,497 @@ class CAExoportParser {
                                 "#text": "How To"
                             },
                             "value": "how-to"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Short Hair"
+                            },
+                            "value": "short-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Bob Hairstyles"
+                            },
+                            "value": "bob-hairstyles"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Trending Styles"
+                            },
+                            "value": "trending-styles"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Haircuts"
+                            },
+                            "value": "haircuts"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Trending Colors"
+                            },
+                            "value": "trending-colors"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Trending Cuts"
+                            },
+                            "value": "trending-cuts"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Pixie"
+                            },
+                            "value": "pixie"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Bangs"
+                            },
+                            "value": "bangs"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Cute Hairstyles"
+                            },
+                            "value": "cute-hairstyles"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Colorful Hair"
+                            },
+                            "value": "colorful-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Highlights"
+                            },
+                            "value": "highlights"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Balayage"
+                            },
+                            "value": "balayage"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Color Treated"
+                            },
+                            "value": "color-treated"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Long Hair"
+                            },
+                            "value": "long-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Medium Hair"
+                            },
+                            "value": "medium-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Vintage Hair"
+                            },
+                            "value": "vintage-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Natural Hair"
+                            },
+                            "value": "natural-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Ponytails"
+                            },
+                            "value": "ponytails"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Sleek Hair"
+                            },
+                            "value": "sleek-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Men"
+                            },
+                            "value": "men"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Halloween"
+                            },
+                            "value": "halloween"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Extensions"
+                            },
+                            "value": "extensions"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Scalp Care"
+                            },
+                            "value": "scalp-care"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Coarse Hair"
+                            },
+                            "value": "coarse-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Curly Hair"
+                            },
+                            "value": "curly-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Dry Hair"
+                            },
+                            "value": "dry-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Black Hair"
+                            },
+                            "value": "black-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Mohawk"
+                            },
+                            "value": "mohawk"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Wet Look"
+                            },
+                            "value": "wet-look"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Wet Look"
+                            },
+                            "value": "wet-look"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Natural Hairstyles"
+                            },
+                            "value": "natural-hairstyles"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Updos"
+                            },
+                            "value": "updos"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Layered Hair"
+                            },
+                            "value": "layered-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Party Looks"
+                            },
+                            "value": "party-looks"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Braids"
+                            },
+                            "value": "braids"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Fine Hair"
+                            },
+                            "value": "fine-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Shampoo"
+                            },
+                            "value": "shampoo"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Cleansing"
+                            },
+                            "value": "cleansing"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Hair Creams and Lotions"
+                            },
+                            "value": "hair-creams-and-lotions"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Conditioner"
+                            },
+                            "value": "conditioner"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Frizzy Hair"
+                            },
+                            "value": "frizzy-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Hair Masks"
+                            },
+                            "value": "hair-masks"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Hair Oil"
+                            },
+                            "value": "hair-oil"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Hair Serum"
+                            },
+                            "value": "hair-serum"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Thick Hair"
+                            },
+                            "value": "thick-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Gray Hair"
+                            },
+                            "value": "gray-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Hairstyles for Men"
+                            },
+                            "value": "hairstyles-for-men"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Products for Men"
+                            },
+                            "value": "products-for-men"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Temporary Color"
+                            },
+                            "value": "temporary-color"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Fringe"
+                            },
+                            "value": "fringe"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Christmas"
+                            },
+                            "value": "christmas"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Pomade"
+                            },
+                            "value": "pomade"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Grooming and Beards"
+                            },
+                            "value": "grooming-and-beards"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Red"
+                            },
+                            "value": "red"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Gift Ideas"
+                            },
+                            "value": "gift-ideas"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Messy Hairstyles"
+                            },
+                            "value": "messy-hairstyles"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Chemically Treated Hair"
+                            },
+                            "value": "chemically-treated-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Lowlights"
+                            },
+                            "value": "lowlights"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Damaged Hair"
+                            },
+                            "value": "damaged-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Pastels"
+                            },
+                            "value": "pastels"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Thinning Hair"
+                            },
+                            "value": "thinning-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Heart Shaped Face"
+                            },
+                            "value": "heart-shaped-face"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Oval Face Shape"
+                            },
+                            "value": "oval-face-shape"
+                            
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Round Face Shpe"
+                            },
+                            "value": "round-face-shape"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Square Face Shape"
+                            },
+                            "value": "square-face-shape"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Diamond Face Shape"
+                            },
+                            "value": "diamond-face-shape"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Rainbow Hair"
+                            },
+                            "value": "rainbow-hair"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Buns"
+                            },
+                            "value": "buns"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Buns"
+                            },
+                            "value": "buns"
+                        },
+                        {
+                            "display": {
+                                "-xml:lang": "x-default",
+                                "#text": "Wedding Looks"
+                            },
+                            "value": "wedding-looks"
                         }
                     ]
                 }
@@ -1093,7 +1584,7 @@ class CAExoportParser {
           '$': { 'attribute-id': 'jsonData', 'xml:lang': 'x-default' } },
         { _: 'false', '$': { 'attribute-id': 'pageNoFollow' } },
         { _: 'false', '$': { 'attribute-id': 'pageNoIndex' } },
-        { _: 'true', '$': { 'attribute-id': 'showInMenu' } },
+        { _: 'false', '$': { 'attribute-id': 'showInMenu' } },
         { _: 'false', '$': { 'attribute-id': 'uniqueSearchTemplate' } } ]
     }
 
