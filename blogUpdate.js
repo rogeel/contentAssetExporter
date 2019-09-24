@@ -1580,7 +1580,7 @@ class CAExoportParser {
         }
         this._customAttribute = [ { _: 'false', '$': { 'attribute-id': 'editorialPage' } },
         { _: 'false', '$': { 'attribute-id': 'isVisible' } },
-        { _: '{"tileConfigId": "blog"}',
+        { _: '{"tileConfigId": "blog", "pageId" : "blog", "sortBy": "publishingDate", "sortDirection": 2, "ShowResultsCount" : true}',
           '$': { 'attribute-id': 'jsonData', 'xml:lang': 'x-default' } },
         { _: 'false', '$': { 'attribute-id': 'pageNoFollow' } },
         { _: 'false', '$': { 'attribute-id': 'pageNoIndex' } },
@@ -1614,12 +1614,25 @@ class CAExoportParser {
         this._parsedObject.library.folder = _.filter(this._parsedObject.library.folder, o => {
             return that._addContent(o, 'folder-id');
         });
+        
+        this._parsedObject.library.folder = _.map(this._parsedObject.library.folder, o => {
+            o['custom-attributes'] = [{ 'custom-attribute': [{ _: 'false', '$': { 'attribute-id': 'editorialPage' } },
+            { _: '{"tileConfigId": "blog", "pageId" : "blog", "sortBy": "publishingDate", "sortDirection": 2}',
+              '$': { 'attribute-id': 'jsonData', 'xml:lang': 'x-default' } },
+            { _: 'false', '$': { 'attribute-id': 'pageNoFollow' } },
+            { _: 'false', '$': { 'attribute-id': 'pageNoIndex' } },
+            { _: 'false', '$': { 'attribute-id': 'showInMenu' } },
+            { _: 'false', '$': { 'attribute-id': 'uniqueSearchTemplate' } } ] }];
+            return o;
+        })
         this._createFolders(that._authors, 'author');
         this._createFolders(that._tags, 'tag');
 
         this._parsedObject.library.content = _.filter(this._parsedObject.library.content, o => {
             return that._addContent(o, 'content-id');
         });
+        
+        
 
         this._parsedObject.library.content = _.map(this._parsedObject.library.content, o => {
             let authorId  = _.filter(o['custom-attributes'][0]['custom-attribute'], a => {
@@ -1700,6 +1713,10 @@ class CAExoportParser {
             o['folder-links'][0]['classification-link'] &&
             o['folder-links'][0]['classification-link'][0] &&
             o['folder-links'][0]['classification-link'][0]['$']['folder-id'] === 'blog') {
+            return true;
+        }
+        
+        if(o.template && o.template[0] === 'containers/blog/contentcategory') {
             return true;
         }
 
