@@ -1644,7 +1644,13 @@ class CAExoportParser {
                 });
             
                 let authorValue = authorObj[0].display['#text'].replace(/ +/g, '-').toLowerCase();
-                o['folder-links'][0]['folder-link'].push({'$' : {'folder-id' :  'author'.concat('-',authorValue) } });
+                if (
+                    o['folder-links'] &&
+                    o['folder-links'][0] &&
+                    o['folder-links'][0]['folder-link']) {
+                        o['folder-links'][0]['folder-link'].push({'$' : {'folder-id' :  'author'.concat('-',authorValue) } });
+                }
+                    
             }
             
             let tagsArray  = _.filter(o['custom-attributes'][0]['custom-attribute'], a => {
@@ -1652,7 +1658,13 @@ class CAExoportParser {
             });
             if (tagsArray.length) {
                 tagsArray[0].value.forEach(tag => {
-                    o['folder-links'][0]['folder-link'].push({'$' : {'folder-id' :  'tag'.concat('-',tag) } });
+                    if (
+                        o['folder-links'] &&
+                        o['folder-links'][0] &&
+                        o['folder-links'][0]['folder-link']) {
+                             o['folder-links'][0]['folder-link'].push({'$' : {'folder-id' :  'tag'.concat('-',tag) } });
+                    }
+                   
                 })
             }
                
